@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Generated datasets
+# These CSV files are recreated by running the ETL notebook.
+data/processed/*.csv
+
+# Python virtual environment
+.venv/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
